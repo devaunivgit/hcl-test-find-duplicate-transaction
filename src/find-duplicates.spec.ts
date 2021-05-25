@@ -1,4 +1,4 @@
-import { findDuplicateTransactions, Transaction } from './find-duplicates';
+import {Transaction } from './find-duplicates';
 
 test('Find duplicate transactions', () => {
   const transactions: Transaction[] = [
